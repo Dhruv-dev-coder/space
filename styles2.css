@@ -1,0 +1,36 @@
+* {
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    margin: 0;
+    background-image: url('hanna-plants-rDZF1b6Gyk4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#andromeda-galaxy {
+    max-width: 50px;
+    margin: 20px;
+}
+
+#andromeda-galaxy img {
+
+    width: 500px;   
+    position: relative;
+    top: -89px;
+    right: -8px;
+    height: 300px;
+    border-radius: 8px;
+    shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
