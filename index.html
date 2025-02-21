@@ -3,20 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <title>space-portfolio</title>
-    <link rel="stylesheet" href = "styles.css">
-
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
 
-<h3> Welcome to Astrophotography Portfolio</h3>
-<div id = "andromeda-galaxy">
-     <img src="andromedagalaxy.jpg">
-     <div class = "image-info">
-        <h4>Andromeda Galaxy</h4>
-         <p>abcd</p>
-         <p>ddfg</p>
+<h3>Astrophotography Portfolio</h3>
 
+<!-- Andromeda Galaxy Image -->
+<div class="image-container" id="andromeda-galaxy-container">
+    <div class="image-box" id="andromeda-galaxy">
+        <img src="andromedagalaxy.jpg" alt="Andromeda Galaxy" class="image">
+        <div class="overlay">
+            <div class="info">
+                <h4>Andromeda Galaxy</h4>
+                <p>Location: NASA Galaxy Evolution Explorer</p>
+                <p>Date Taken: 2003-12-10</p>
+            </div>
+        </div>
+    </div>
+    <div class="description-box" id="description-box-1">
+        <button class="close-description">Close</button>
+        <h2>Description of Andromeda Galaxy</h2>
+        <p>This is a detailed description of the Andromeda Galaxy. It is a spiral galaxy located approximately 2.537 million light-years from Earth...</p>
     </div>
 </div>
+
+<!-- New Image Boxes with Photos -->
+
+<!-- Second Image Box -->
+<div class="image-container" id="image-2-container">
+    <div class="image-box" id="image-2">
+        <img src="eaglenebula.jpg" alt="Second Image" class="image">
+        <div class="overlay">
+            <div class="info">
+                <h4>Eagle Nebula</h4>
+                <p>Location: Universe</p>
+                <p>Date Taken: </p>
+            </div>
+        </div>
+    </div>
+    <div class="description-box" id="description-box-2">
+        <button class="close-description">Close</button>
+        <h2>Description of Second Image</h2>
+        <p>This is a detailed description of the second image...</p>
+    </div>
+</div>
+
+<!-- Third Image Box -->
+<div class="image-container" id="image-3-container">
+    <div class="image-box" id="image-3">
+        <img src="northernlights.jpg" alt="Third Image" class="image">
+        <div class="overlay">
+            <div class="info">
+                <h4>Third Image</h4>
+                <p>Location: Universe</p>
+                <p>Time Taken: 2025</p>
+            </div>
+        </div>
+    </div>
+    <div class="description-box" id="description-box-3">
+        <button class="close-description">Close</button>
+        <h2>Description of Third Image</h2>
+        <p>This is a detailed description of the third image...</p>
+    </div>
+</div>
+
+<!-- Fourth Image Box -->
+<div class="image-container" id="image-4-container">
+    <div class="image-box" id="image-4">
+        <img src="saturnrings.jpg" alt="Fourth Image" class="image">
+        <div class="overlay">
+            <div class="info">
+                <h4>Fourth Image</h4>
+                <p>Location: Universe</p>
+                <p>Time Taken: 2025</p>
+            </div>
+        </div>
+    </div>
+    <div class="description-box" id="description-box-4">
+        <button class="close-description">Close</button>
+        <h2>Description of Fourth Image</h2>
+        <p>This is a detailed description of the fourth image...</p>
+    </div>
+</div>
+
+<!-- Fifth Image Box -->
+<div class="image-container" id="image-5-container">
+    <div class="image-box" id="image-5">
+        <img src="whirlpoolgalaxy.jpg" alt="Fifth Image" class="image">
+        <div class="overlay">
+            <div class="info">
+                <h4>Fifth Image</h4>
+                <p>Location: Universe</p>
+                <p>Time Taken: 2025</p>
+            </div>
+        </div>
+    </div>
+    <div class="description-box" id="description-box-5">
+        <button class="close-description">Close</button>
+        <h2>Description of Fifth Image</h2>
+        <p>This is a detailed description of the fifth image...</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
